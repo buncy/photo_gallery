@@ -23,10 +23,9 @@ export default function Testimonies() {
         <SwiperSlide className={styles.swiper_slide}>
           <p className={styles.testimony_text}>
             <strong>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              voluptate consectetur molestias eveniet amet aut autem doloremque
-              omnis error. Ex architecto laboriosam facere placeat dolores velit
-              nam sit quis mollitia.
+              Nani is the worst photographer I ever met in my life. He does the
+              spelling of photography. He is worst fellow andi. Happy Holi
+              tammudu &#128516;
             </strong>
           </p>
         </SwiperSlide>
