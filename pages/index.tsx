@@ -10,7 +10,11 @@ import ResponsiveAppBar from "../components/navBar";
 import TitlebarBelowImageList from "../components/imageList";
 import Testimonies from "../components/testimonies";
 
-const Home: NextPage = ({ data }) => {
+interface ResponseData {
+  data: any;
+}
+
+const Home: NextPage<ResponseData> = ({ data }) => {
   return (
     <>
       <ResponsiveAppBar />
