@@ -18,7 +18,7 @@ export default function TitlebarBelowImageList({ data }) {
         <ImageListItem key={item.id}>
           <img
             src={`${
-              "http://localhost:1337" +
+              "https://nani-image-gallery.herokuapp.com" +
               item.attributes.photo.data?.attributes.formats.large.url
             }?w=248&fit=crop&auto=format`}
             srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
