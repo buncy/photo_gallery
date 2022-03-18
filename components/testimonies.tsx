@@ -23,9 +23,9 @@ export default function Testimonies() {
         <SwiperSlide className={styles.swiper_slide}>
           <p className={styles.testimony_text}>
             <strong>
-              Nani is the worst photographer I ever met in my life. He does the
-              spelling of photography. He is worst fellow andi. Happy Holi
-              tammudu &#128516;
+              Nani is the worst photographer I ever met in my life. He does not
+              know the spelling of photography. He is worst fellow andi. Happy
+              Holi tammudu &#128516;
             </strong>
           </p>
         </SwiperSlide>
