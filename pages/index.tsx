@@ -50,12 +50,15 @@ export default Home;
 export async function getStaticProps() {
   // Call an external API endpoint to get posts.
   // You can use any data fetching library
-  const res = await fetch("http://localhost:1337/api/photos?populate=photo", {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json",
-    },
-  });
+  const res = await fetch(
+    "https://nani-image-gallery.herokuapp.com/api/photos?populate=photo",
+    {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }
+  );
   const photos = await res.json();
   //console.log(photos.data[0].attributes.photo.data);
   // By returning { props: { posts } }, the Blog component
