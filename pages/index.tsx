@@ -31,9 +31,9 @@ const Home: NextPage<ResponseData> = ({ data }) => {
             alignItems: "center",
           }}
         >
-          <Link href="/about" color="secondary">
+          {/* <Link href="/about" color="secondary">
             Go to the about page
-          </Link>
+          </Link> */}
 
           <Copyright />
         </Box>
